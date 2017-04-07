@@ -4,17 +4,38 @@
   background: linear-gradient(#f6f1b2, #4599b2);
   width: 800px;
   margin: 0 auto;
-}
-#cabecalho {
     position: relative;
 }
 h1 {
   font-family: Ravie;
   color: #e90c0c;
   font-size: 36px;
+    margin: 5px;
+}
+#cabecalho {
+    text-align: right;
+    margin-left: 154px;
+    position:relative;
+    display: block;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
+#cabecalho h2{
+    font-family:"Trebuchet MS";
+    font-size: 24px;
+    color: #333;    
+    font-weight: normal;
+    margin: 5px;
+}
+
+#acai {
+    color: #d027aa;
+}
+
+
 #cardapio {
+    position: relative;
   border: 1px;
   border-color: #aac0ae;
   border-style: solid;
@@ -22,12 +43,23 @@ h1 {
   width: 646px;
   box-sizing: border-box;
   margin-left: 154px;
+    padding-left: 15px;
 }
 
-#lateral {
-  width: 154px;
-  position: absolute;
+h3 {
+    font-family: Verdana;
+    font-size: 18px;
+}
 
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-size:14px;
+}
+
+.preco {
+    float: right;
+    padding-right: 10px;
 }
 
 #ticket {
@@ -48,12 +80,30 @@ img[src*="siri"]{
 
 #lateral h2{
     transform: rotate(-90deg);
-    font-family: Verdana;
-    font-size: 38px;
-    font-style: bold;
+    font-size: 48px;
+    position: absolute;
+    top: 220px;
+}
+
+
+img[src*="bolhas"]{
+    position: absolute;
+    top: 426px;
+    left: 42px;
+    right: 20px;
 }
 
 img[src*="peixe"]{
+    text-align: left;
     position: absolute;
     left: -44px;
+    bottom: 0;
+    top: 620px;
+}
 
+
+#rodape {
+    padding: 46px 15px 25px;
+    text-align: right;
+    position:relative;
+}
