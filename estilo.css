@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 #cabecalho {
-  padding-right: 30px;
+    position: relative;
 }
 h1 {
   font-family: Ravie;
@@ -39,3 +39,21 @@ h1 {
 #ticket:hover {
   left:0;
 }
+
+img[src*="siri"]{
+    position: absolute;
+    top: 17px;
+    left: -10px;
+}
+
+#lateral h2{
+    transform: rotate(-90deg);
+    font-family: Verdana;
+    font-size: 38px;
+    font-style: bold;
+}
+
+img[src*="peixe"]{
+    position: absolute;
+    left: -44px;
+
