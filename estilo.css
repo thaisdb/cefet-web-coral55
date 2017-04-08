@@ -1,10 +1,11 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
-#recipiente{
-  background: linear-gradient(#f6f1b2, #4599b2);
-  width: 800px;
-  margin: 0 auto;
+main{
+    background: linear-gradient(#f6f1b2, #4599b2);
+    width: 800px;
+    margin: 0 auto;
     position: relative;
+    font-family: Verdana;
 }
 h1 {
   font-family: Ravie;
@@ -12,7 +13,7 @@ h1 {
   font-size: 36px;
     margin: 5px;
 }
-#cabecalho {
+header {
     text-align: right;
     margin-left: 154px;
     position:relative;
@@ -21,7 +22,7 @@ h1 {
     padding-top: 20px;
 }
 
-#cabecalho h2{
+header h2{
     font-family:"Trebuchet MS";
     font-size: 24px;
     color: #333;    
@@ -47,7 +48,6 @@ h1 {
 }
 
 h3 {
-    font-family: Verdana;
     font-size: 18px;
 }
 
@@ -56,6 +56,10 @@ ul{
     padding: 0;
     font-size:14px;
 }
+li {
+    padding: 5px 0;
+}
+
 
 .preco {
     float: right;
@@ -78,7 +82,7 @@ img[src*="siri"]{
     left: -10px;
 }
 
-#lateral h2{
+aside h2{
     transform: rotate(-90deg);
     font-size: 48px;
     position: absolute;
@@ -88,7 +92,7 @@ img[src*="siri"]{
 
 img[src*="bolhas"]{
     position: absolute;
-    top: 426px;
+    bottom: 125px;
     left: 42px;
     right: 20px;
 }
@@ -98,11 +102,10 @@ img[src*="peixe"]{
     position: absolute;
     left: -44px;
     bottom: 0;
-    top: 620px;
 }
 
 
-#rodape {
+footer {
     padding: 46px 15px 25px;
     text-align: right;
     position:relative;
